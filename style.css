@@ -357,7 +357,7 @@ body {
   text-align: center;
   padding: 1rem;
 }
-
+.btn-whatsapp-floating{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:.85rem;border-radius:50%;font-size:1.4rem;z-index:2000;box-shadow:0 10px 30px rgba(0,0,0,0.18);display:flex;align-items:center;justify-content:center;text-decoration:none}
 /* Lightbox */
 .lightbox {
   display: none;
