@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ongoing Projects by S.S BUILDERS" />
+  <title>Ongoing Projects | S.S BUILDERS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="S.S BUILDERS homepage">
+        <img src="channels4_profile.jpg" alt="S.S BUILDERS logo" class="logo">
+      </a>
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+    
+        <a href="ongoing.html" class="nav-link active">Ongoing Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-pad">
+      <div class="container">
+        <h1 class="h-section">Ongoing Projects</h1>
+        <p class="muted" style="max-width:900px;margin:0 auto 1.5rem;text-align:center;"></p>
+        <div class="gallery-grid" id="ongoing-gallery">
+          <figure class="gallery-card">
+            <img src="S FIRST FLOOR PLAN 21.8.2025_page-0001.jpg" alt="Ongoing Project 1" loading="lazy">
+            <figcaption>Ongoing Project 1</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="WhatsApp Image 2025-10-08 at 08.37.11.jpeg" alt="Ongoing Project 2" loading="lazy">
+            <figcaption>Ongoing Project 2</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="one.jpeg" alt="Ongoing Project 3" loading="lazy">
+            <figcaption>Ongoing Project 3</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="two.jpeg" alt="Ongoing Project 4" loading="lazy">
+            <figcaption>Ongoing Project 4</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="three.jpeg" alt="Ongoing Project 5" loading="lazy">
+            <figcaption>Ongoing Project 5</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="four.jpeg" alt="Ongoing Project 6" loading="lazy">
+            <figcaption>Ongoing Project 6</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="five.jpeg" alt="Ongoing Project 7" loading="lazy" onclick="openLightbox(this)">
+            <figcaption>Ongoing Project 7</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="six.jpeg" alt="Ongoing Project 8" loading="lazy" onclick="openLightbox(this)">
+            <figcaption>Ongoing Project 8</figcaption>
+          </figure>
+         </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 S.S BUILDERS — Designed by S.S Team</p>
+    </div>
+  </footer>
+  
+  <!-- CONTACT (added to ensure Contact links show details on this page) -->
+  <section id="contact" class="contact section-pad">
+    <div class="container contact-container">
+      <h2 class="h-section">Contact Us</h2>
+      <p class="muted">Have a project in mind or need more details? Reach out to us!</p>
+      <div class="contact-grid">
+        <form id="contactForm" class="card">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="card contact-info">
+          <h3>Get in Touch</h3>
+          <ul class="contact-list">
+            <li><strong>📍 Address:</strong> #12, Giridhamanagar, Doddabettahalli Layout, Vidyaranyapura, Bangalore 560097</li>
+            <li><strong>📞 Phone:</strong> +91 9448311893</li>
+            <li><strong>📞 Alternate:</strong> +91 9110264303</li>
+            <li><strong>📧 Email:</strong> <a href="mailto:saishanker220@gmail.com">saishanker220@gmail.com</a></li>
+          </ul>
+          <a class="btn btn-whatsapp" href="https://wa.me/919448311893?text=Hi%20S.S%20Builders%2C%20I%20want%20to%20discuss%20a%20project." target="_blank">💬 Chat on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
